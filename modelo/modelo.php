@@ -11,6 +11,12 @@
 
         }
 
+        public function traer(){
+            $sentencia =  $this->db ->prepare("SELECT * FROM comentario");
+            $sentencia->execute();
+            $datos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+            return $datos;
+        }
     }
 
 ?>
