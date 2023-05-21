@@ -1,9 +1,14 @@
 <?php
-    require_once 'modelo/modelo.php';
-    $modelo = new modelo();
+    require_once 'controlador.php';
+    $controlador = new controlador();
 
-    $datos = $modelo->traer();
+    $controlador->estructuraSuperior();
 
-    print_r($datos);
+    $controlador->listar();
+    $controlador->estructuraInferior();
+    
+
+    
+
 
 ?>
