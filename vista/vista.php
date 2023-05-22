@@ -19,6 +19,9 @@ class vista{
         $this->smarty->assign('comentarios',$comentarios);
         $this->smarty->display('vista/templates/listaComentarios.tpl');
     }
+    public function formulario(){
+        $this->smarty->display('vista/templates/formulario.tpl');
+    }
 
 }
 

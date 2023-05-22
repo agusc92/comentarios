@@ -17,6 +17,10 @@
             $datos = $sentencia->fetchAll(PDO::FETCH_ASSOC);
             return $datos;
         }
+        public function insertar(){
+            $sentencia = $this->db->prepare("INSERT INTO comentario (comentario) VALUES (?)");
+            
+        }
     }
 
 ?>

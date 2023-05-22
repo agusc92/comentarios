@@ -20,6 +20,13 @@
             $this->vista->lista($comentarios);
            
         }
+        public function mostrarFormulario(){
+            $this->vista->formulario();
+        } 
+        public function agregar(){
+            // if(!isempty())
+            $this->modelo;
+        }
 
     }
 

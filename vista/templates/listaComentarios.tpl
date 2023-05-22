@@ -4,3 +4,4 @@
     {/foreach}
   
 </ul>
+<div class="separador"></div>

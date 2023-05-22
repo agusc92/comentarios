@@ -5,6 +5,7 @@
     $controlador->estructuraSuperior();
 
     $controlador->listar();
+    $controlador->mostrarFormulario();
     $controlador->estructuraInferior();
     
 
